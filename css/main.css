@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, 
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 70px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 25px 0px;
+}
+
+.logo {
+    color: rgb(25, 25, 112);
+    font-size: 25px;
+    letter-spacing: 2px;
+    float: left;
+    margin: 20px;
+}
+
+.menu-all-lab {
+    color: rgb(25, 25, 112);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.menu {
+    color: rgb(25, 25, 112);
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.menu-item a {
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(25, 25, 112);
+    border: 4px rgb(255, 200, 0) double;
+    padding: 10px 10px;
+    letter-spacing: 2px;
+}
+
+.menu-item:hover a {
+    color: rgb(224, 1, 90);
+    border: 4px #44b8c0 double;
+    transition: .5s color ease-in-out;
+    transition: .5s border ease-in-out;
+}
+
+.line-header {
+    background-color: rgb(255, 200, 0);
+    border: none;
+    width: 100%;
+    height: 1px;
+}
+
+.line-footer {
+    border: none;
+    background-color: rgb(25, 25, 112);
+    width: 100%;
+    height: 1px;
+}
+
+.about,
+.quote-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(25, 25, 112);
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 15px 0;
+    line-height: 28px;
+}
+
+.about-photo {
+    float: left;
+}
+
+.about-photo img {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin-left: 30px;
+}
+
+.about-text {
+    float: right;
+    margin: 55px;
+}
+
+.about-text span {
+    font-weight: 600;
+}
+
+.quote-text {
+    font-weight: 400;
+}
+
+.about-text-item {
+    margin-bottom: 5px;
+}
+
+.about-all {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px 50px;
+}
+
+.footer-1 {
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0) );
+}
+
+.quote-text{
+    text-align: center;
+}
+
+
+
+/* lab 2 */
+
+.about-font {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.line-header-2,
+.line-footer-2 {
+    border: none;
+    background-color: rgb(255, 145, 0);
+    width: 100%;
+    height: 1px;
+}
+
+.about-font h1 {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.about-font h1 span {
+    font-family: 'Pacifico', cursive;
+    color: rgb(224, 1, 90);
+    border-bottom: rgb(224, 1, 90) dotted 1px;
+}
+
+.about-font-one span {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 100, 0);
+    border-bottom: 4px rgb(255, 100, 0) double;
+}
+
+.about-font-two span {
+    font-family: 'Caveat', cursive;
+    color: rgb(224, 1, 90);
+}
+
+.about-font-three span {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 100, 0);
+}
+
+.about-font-four span,
+.about-font-eight span { 
+    font-family: 'Pacifico', cursive;
+    color: rgb(224, 1, 90);
+}
+
+.about-font-five {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 5px;
+    color: rgb(255, 100, 0);
+}
+
+.about-font-six span {
+    font-family: 'Bangers', cursive;
+    color: rgb(224, 1, 90);
+}
+
+.about-font-seven span {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 100, 0);
+}
+
+.about-link p {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: rgb(255, 145, 0);
+    margin-top: 20px;
+}
+
+.about-link a {
+    color: rgb(25, 25, 112);
+    border-bottom: rgb(25, 25, 112) dotted 1px;
+    transition-duration: .5s;
+}
+
+.about-link a:hover {
+    color: rgb(255, 145, 0);
+    border-bottom: rgb(255, 145, 0) dotted 1px;
+    transition-duration: .5s;
+}
+
+
+
+/* lab 3 */
+
+.about-table {
+    padding: 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.line-header-3,
+.line-footer-3 {
+    background-color: rgb(245, 130, 8);
+    border: none;
+    width: 100%;
+    height: 1px;
+}
+
+.logo-zodiac,
+.menu-all-lab-zodiac {
+    color: rgb(254, 202, 115);
+}
+
+.menu-zodiac a {
+    color: rgb(5, 5, 5);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.table {
+    width: 100%;
+    margin: auto;
+    max-width: 700px;
+}
+
+.table tr {
+    display: table-row;
+}
+
+.table-name h1,
+.table-column-name th {
+    color: #fff;
+    border: rgb(254, 202, 115) dotted 1px;
+    margin: 3px 0px;
+    padding: 10px;
+    background: rgba(255, 215, 150, 0.4);
+}
+
+.table-column td {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    font-weight: 400;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    vertical-align: middle;
+    border: rgb(245, 130, 8) dotted 1px;
+    background: rgba(255, 240, 210, 0.4);
+}
+
+.table-column td img {
+    width: 50px;
+    height: 50px;
+    float: inherit;
+} 
+
+.footer {
+    padding: 50px 0px;
+}
